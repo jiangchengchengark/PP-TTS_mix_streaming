@@ -72,8 +72,8 @@ tts_online-onnx:
     speaker_dict: 
     am_sample_rate: 24000
     am_sess_conf:
-        device: "gpu:0" # set 'gpu:id' or 'cpu'
-        use_trt: True
+        device: "cpu" # set 'gpu:id' or 'cpu'
+        use_trt: False
         cpu_threads: 4
 
     # voc (vocoder) choices=['mb_melgan_csmsc_onnx, hifigan_csmsc_onnx']
@@ -82,8 +82,8 @@ tts_online-onnx:
     voc_ckpt: 
     voc_sample_rate: 24000
     voc_sess_conf:
-        device: "gpu:0" # set 'gpu:id' or 'cpu'
-        use_trt: True
+        device: "cpu" # set 'gpu:id' or 'cpu'
+        use_trt: False
         cpu_threads: 4
 
     # others
