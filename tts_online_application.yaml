@@ -4,7 +4,7 @@
 #                             SERVER SETTING                                    #
 #################################################################################
 host: 0.0.0.0
-port: 8093
+port: 8092
 
 # The task format in the engin_list is: <speech task>_<engine type>
 # engine_list choices = ['tts_online', 'tts_online-onnx'], the inference speed of tts_online-onnx is faster than tts_online.
