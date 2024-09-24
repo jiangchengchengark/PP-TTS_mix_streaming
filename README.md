@@ -12,6 +12,12 @@ This project includes the following main files:
 
 ## Usage Instructions
 
+### Install NLTK DATA
+1、make sure you have NLTK support, and you need install necessary data operator
+```python
+ntlk.down('averaged_perceptron_tagger')
+```
+
 ### Replace Files
 
 1. Find your PaddleSpeech installation path by using the following command:
