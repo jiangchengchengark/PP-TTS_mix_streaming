@@ -37,9 +37,9 @@ ntlk.down('averaged_perceptron_tagger')
 
 ### Run Streaming TTS Service
 
-Use PaddleSpeech's `tts_online_application` to run your streaming TTS service. You can start it with the following command:
+Use PP-TTS_mix_streaming's `tts_online_application` to run your streaming TTS service. You can start it with the following command:
 ```bash
-python -m paddlespeech.server.engine.tts.online.onnx.tts_online_application
+python -m paddlespeech.server    ./tts_online_application
 ```
 
 ## Environment Requirements
